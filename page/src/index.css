@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.active{
+
+    border-bottom: 2px solid black;
+    margin-bottom: 6px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+hr{
+    border-width: 1px;
+    background-color: #71717A;
+   
+   
+}
+select option {
+   margin-top: 5px;
+    background-color: #f8edeb;
+    color: #da2c38;
+    font-size: 16px;
+    padding: 10px;
+    padding-top: 3px;
+    
+    
+  }
+  
