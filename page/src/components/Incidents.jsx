@@ -5,6 +5,7 @@ import Dashboard from './Dashboard'
 export default function Incidents() {
   return (
     <>
+    {/* Dashboard Again */}
    <Dashboard/>
    <section>
     <div className="w-full h-32 ">
