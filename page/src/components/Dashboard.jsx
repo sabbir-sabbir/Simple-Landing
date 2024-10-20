@@ -59,7 +59,7 @@ export default function Dashboard() {
           {/* Second Part */}
         <div className="flex items-center">
 
-          {/* search box */}
+         {/* Search Box */}
         <div className="w-[25px] mr-2">
         <input type="search" className="bg-[#FAFAFA] text-start rounded-md p-2 outline-0 hover:border-2 border-slate-400" placeholder="Search incident"/>
         </div>
