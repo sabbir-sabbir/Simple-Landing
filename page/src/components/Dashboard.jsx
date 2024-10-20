@@ -56,7 +56,7 @@ export default function Dashboard() {
          <h2 className="font-bold text-[#09090B] text-[26px]">Dashboard</h2>
         </div>
           
-          {/* second part */}
+          {/* Second Part */}
         <div className="flex items-center">
 
           {/* search box */}
