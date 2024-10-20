@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AOS from 'aos';
-import About from "./components/Incidents";
+import Incidents from "./components/Incidents";
 import Location from "./components/Location";
 import Error from "./components/Error";
 import Navbar from "./components/Navbar";
@@ -16,7 +16,7 @@ function App() {
 
         <Route path="" element={<Navbar />}>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/incidents" element={<About />} />
+          <Route path="/incidents" element={<Incidents />} />
           <Route path="/location" element={<Location />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/cypher" element={<SignUp />} />
