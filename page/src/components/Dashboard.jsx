@@ -63,7 +63,7 @@ export default function Dashboard() {
         <div className="w-[25px] mr-2">
         <input type="search" className="bg-[#FAFAFA] text-start rounded-md p-2 outline-0 hover:border-2 border-slate-400" placeholder="Search incident"/>
         </div>
-        {/* select box */}
+        {/* Select Box */}
           <div className="w-auto   bg-[#FAFAFA] border-[#E4E4E7] ml-44 flex  p-3 rounded-md">
           <span className="text-[12px] text-[#71717A] font-semibold w-[50px] text-center">Sort By:</span>      <select name="" id="" className="bg-[#FAFAFA] text-[14px] outline-none  hover:border-2 border-[#e85b0488] rounded-md">
           <option value="">Date modified</option>
