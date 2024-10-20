@@ -7,6 +7,7 @@ export default function Incidents() {
     <>
     {/* Dashboard Again */}
    <Dashboard/>
+   {/* Strepper section which i unable to make (-_-) */}
    <section>
     <div className="w-full h-32 ">
       <h1 className="text-[#09090B] text-[32px] font-bold text-center">Let’s get started</h1>
